@@ -4,7 +4,7 @@
 
 <h3>Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü</h3>
 
-Tasarlayan: <b>Atakan Şahin</b> Öğretim Üyesi: <b>Dr. Fehim KÖYLÜ</b>
+Tasarlayan: <b>Atakan ŞAHİN</b></u> Öğretim Üyesi: <b>Dr. Fehim KÖYLÜ</b>
 
 Kullanılan Araçlar --> HTML5, CSS3
 
