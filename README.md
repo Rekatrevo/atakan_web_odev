@@ -1,10 +1,10 @@
-# www.facebook.com sitesinin, ana sayfasının tasarımı
+<h1>www.facebook.com sitesinin, ana sayfasının tasarımı</h1>
 
-<b>BS435 Web Programlama 1 Dersi Vize Ödevi</b>
+<h2>BS435 Web Programlama 1 Dersi Vize Ödevi</h2>
 
-Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
+<h3>Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü</h3>
 
-Tasarlayan: Atakan Şahin Öğretim Üyesi: Dr. Fehim KÖYLÜ
+Tasarlayan: <b>Atakan Şahin</b> Öğretim Üyesi: <b>Dr. Fehim KÖYLÜ</b>
 
 Kullanılan Araçlar --> HTML5, CSS3
 
