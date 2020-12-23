@@ -1,6 +1,6 @@
 # www.facebook.com sitesinin, ana sayfasının tasarımı
 
-BS435 Web Programlama 1 Dersi Vize Ödevi
+<b>BS435 Web Programlama 1 Dersi Vize Ödevi</b>
 
 Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
 
