@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dc1 {
+
+  border: 1px solid black;
+  padding-left:30px;
+  width:150px;
+  float:left;
+}
+.dc2 {
+
+  border: 1px solid black;
+  padding-left:50px;
+  width:150px;
+  float:left;
+}
+.dc3 {
+
+  border: 1px solid black;
+  padding-left:50px;
+  width:150px;
+  float:left;
+}
+
+.button {
+  background-color: #007FFF	;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 6px 24px;
+}
+</style>
+</head>
+<body>
+
+<h3>Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü Web Programlama 1 Dersi Final Sorusu</h3>
+<h3 style="text-align:center;">Dr. Öğr. Görevlisi Fehim KÖYLÜ</h3>
+<h1 style="text-align:center;">Alışveriş Uygulaması</h1>
+<p>Vermek istediğiniz siparişler için aşağıdaki listeden seçerek adedini belirtiniz.</p>
+
+<div class="dc1">
+<label for="ek">Ekmek</label>
+<h2>2₺ / adet</h2>
+<pre>Somun ekmek</pre>
+<pre>200 gr</pre>
+<input type="button" name="ek" class="button" value="Sepete Ekle" onclick="fonk()">
+</div>
+
+<div class="dc2">
+<label for="ck">Çikolata</label>
+<h2>5₺ / adet</h2>
+<pre>Bitter Çikolata</pre>
+<pre>60 gr.</pre>
+<input type="button" name="ck" class="button" value="Sepete Ekle" onclick="fonk()">
+</div>
+
+<div class="dc3">
+<label for="dm">Domates</label>
+<h2>6₺ / kg</h2>
+<pre>Domates</pre>
+<pre>Antalya Sera</pre>
+<input type="button" name="dm" class="button" value="Sepete Ekle" onclick="fonk()">
+</div>
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<form>
+  <select id="list" size=9>
+    
+  </select>
+</form>
+<pre>© Fehim KÖYLÜ Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
+<u>Bölüm Sayfası</u> <u>Alışveriş Kuralları</u> <u>Destek</u></pre>
+
+<script>
+function fonk() {
+  var x = document.getElementById("list");
+  var option = document.createElement("option");
+  option.text = ck;
+  x.add(option);
+}
+</script>
+</body>
+</html>
